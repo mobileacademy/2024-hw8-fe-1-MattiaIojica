@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.controls {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.controls label, .controls select, .controls input, .controls button {
+    margin: 5px 0;
+    font-size: 20px;
+}
+
+.controls div, .controls button { 
+    margin-left: 3%;
+}
+
+.controls button, .controls select{
+    cursor: pointer;
+}
+
+.controls button {
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#game-board {
+    display: grid;
+    gap: 2px;
+    margin: 50px auto;
+    margin-left: 80px;
+}
+
+.square {
+    width: 30px;
+    height: 30px;
+    background-color: lightgray;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    font-size: 18px;
+}
+
+.square.opened {
+    background-color: white;
+    cursor: default;
+    border: 1px solid #999;
+}
+
+.square.flagged {
+    background-color: yellow;
+}
+
+.square.bomb {
+    background-color: red;
+}
