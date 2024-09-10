@@ -1,6 +1,8 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/AJkW8Vu8)
 # Homework (HTML, CSS, JS)
 
+![Link firebase](https://minesweeper-app-6d87b.web.app/)
+
 Generate a board for the popular Minesweeper Game. Create a set of functions accordingly.
 
 * make sure to have at least three difficulties for the game
